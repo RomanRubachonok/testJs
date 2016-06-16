@@ -1,0 +1,46 @@
+html{
+	font-size: 14px;
+}
+.wrappIconView{
+	margin: 0 auto;
+	border: 1px solid blue;	
+}
+.wrappIconView button{
+	width: 50%;
+}
+#iconView{
+	font-size: 0;
+	margin: 0 auto;
+	overflow-x: hidden;
+}
+#iconView .item{
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	font-size: 10px;
+	margin: 4px;
+	padding: 2px;
+	border: 1px solid green;
+}
+
+#iconView .item.selected{
+	background-color: blue;
+}
+
+#iconView .item img{
+	display: block;
+	max-width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1em;
+}
+
+#iconView .item span{
+	position: absolute;
+	display: block;
+	left: 0;
+	bottom: 2px;
+	width: 100%;
+	height: 1em;
+	text-align: center;
+}
